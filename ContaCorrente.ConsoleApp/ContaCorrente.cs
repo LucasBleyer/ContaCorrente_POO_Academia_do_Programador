@@ -25,5 +25,20 @@ namespace ContaCorrente.ConsoleApp
             int deposito = saldo + valor_depositar;
             return deposito;
         }
+
+        public void EmitirSaldo()
+        {
+            Console.WriteLine("O Saldo da conta " + numero + " é de " + saldo + "R$");
+        }
+
+        public void EmitirExtrato()
+        {
+
+        }
+
+        public void EmitirTransferencias()
+        {
+
+        }
     }
 }

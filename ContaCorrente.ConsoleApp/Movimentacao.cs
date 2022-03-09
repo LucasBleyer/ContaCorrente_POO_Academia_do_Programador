@@ -8,7 +8,8 @@ namespace ContaCorrente.ConsoleApp
 {
     internal class Movimentacao
     {
-        public decimal valores;
+        public decimal valor;
+        public TipoMovimentacao tipo;
 
         public enum TipoMovimentacao
         {
