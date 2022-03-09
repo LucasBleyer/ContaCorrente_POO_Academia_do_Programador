@@ -7,6 +7,7 @@ namespace ContaCorrente.ConsoleApp
         static void Main(string[] args)
         {
             ContaCorrente conta1 = new ContaCorrente();
+            conta1.saldo = 1000;
         }
     }
 }
