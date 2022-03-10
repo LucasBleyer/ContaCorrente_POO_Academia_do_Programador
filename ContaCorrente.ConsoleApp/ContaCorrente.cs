@@ -28,7 +28,14 @@ namespace ContaCorrente.ConsoleApp
 
         public void EmitirSaldo()
         {
-            Console.WriteLine("O Saldo da conta " + numero + " é de " + saldo + "R$");
+            if (saldo > 0)
+            {
+                Console.WriteLine("O Saldo da conta " + numero + " é de " + saldo + "R$");
+            }
+            else
+            {
+                Console.WriteLine("Saldo Negativo!");
+            }
         }
 
         public void EmitirExtrato()
