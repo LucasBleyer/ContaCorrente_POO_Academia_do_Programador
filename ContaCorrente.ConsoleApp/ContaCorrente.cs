@@ -16,7 +16,7 @@ namespace ContaCorrente.ConsoleApp
 
         public void Sacar(double valor_saque)
         {
-            if (valor_saque < this.limite)
+            if (valor_saque < (this.limite + this.saldo))
             {
                 double novo_saldo = this.saldo - valor_saque;
                 this.saldo = novo_saldo;
