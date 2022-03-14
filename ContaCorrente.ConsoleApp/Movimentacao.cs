@@ -10,11 +10,10 @@ namespace ContaCorrente.ConsoleApp
     {
         public double valor;
         public TipoMovimentacao tipos;
+    }
 
-        public enum TipoMovimentacao
-        {
-            Credito, Debito
-        }
-
+    public enum TipoMovimentacao
+    {
+        Credito, Debito
     }
 }
